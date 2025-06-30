@@ -33,6 +33,15 @@ const Work = () => {
       imgUrl: "/projects/ecommerce.png",
       tags: ["Web App", "React JS"],
     },
+    {
+      title: "Personal Portfolio Website",
+      description:
+        "My personal portfolio to showcase projects, skills, and contact information. Built with React, Framer Motion, and deployed on Vercel.",
+      projectLink: "https://portfolio-alpha-topaz-66.vercel.app/",
+      codeLink: "https://github.com/jessicaagarwal/portfolio",
+      imgUrl: "/projects/portfolio.png",
+      tags: ["Web App", "React JS"],
+    },    
   ];
   
   

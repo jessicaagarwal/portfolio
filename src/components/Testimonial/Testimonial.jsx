@@ -7,21 +7,15 @@ import "./Testimonial.css";
 const testimonialsData = [
   {
     feedback:
-      "Jessica is a fantastic developer with a keen eye for detail. Her contributions to our project were invaluable.",
-    name: "Sanjay Mehta",
+      "Jessica is not just a good candidate, but a great one for the SDE role. Her problem-solving skills are sharp, and she has a strong grasp over DSA concepts. I believe she has a bright future ahead in software development. She meets the expectations of the SDE role quite well — always willing to go the extra mile to ensure her tasks are completed, if not ahead of time, then with precision and accuracy. She is a bright individual with a well-rounded mindset and a solid technical foundation.",
+    name: "Ayan Chowdhury",
     company: "Kalvium Mentor",
   },
   {
     feedback:
-      "It’s rare to find someone so dedicated and passionate about building user-friendly applications.",
-    name: "Ritika Sharma",
-    company: "Teammate",
-  },
-  {
-    feedback:
-      "Her design sense combined with her technical skills makes her a true full-stack asset.",
-    name: "Amit Verma",
-    company: "Project Reviewer",
+      "It has been a pleasure working with Jessica, who has consistently demonstrated strong skills and professionalism as a web developer. Her ability to understand project requirements, write clean and efficient code, and create visually appealing and responsive web interfaces is truly commendable.",
+    name: "Keshav Khandelwal",
+    company: "AWS Cloud Captain, Hackathon Team Lead",
   },
 ];
 

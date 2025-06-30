@@ -2,7 +2,7 @@ import React from 'react';
 import './Skills.css';
 
 const skills = [
-  { name: 'JavaScript', icon: '/assests/javascript.svg' },
+  { name: 'JavaScript', icon: '/assests/javaScript.svg' },
   { name: 'Java', icon: '/assests/java.svg' },
   { name: 'Python', icon: '/assests/python.svg' },
   { name: 'HTML', icon: '/assests/html.svg' },

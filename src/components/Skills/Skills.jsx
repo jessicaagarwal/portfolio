@@ -2,18 +2,18 @@ import React from 'react';
 import './Skills.css';
 
 const skills = [
-  { name: 'JavaScript', icon: '/src/assests/javascript.svg' },
-  { name: 'Java', icon: '/src/assests/java.svg' },
-  { name: 'Python', icon: '/src/assests/python.svg' },
-  { name: 'HTML', icon: '/src/assests/html.svg' },
-  { name: 'CSS', icon: '/src/assests/css.svg' },
-  { name: 'React', icon: '/src/assests/react.svg' },
-  { name: 'Node js', icon: '/src/assests/nodejs.svg' },
-  { name: 'Express.js', icon: '/src/assests/express.svg' },
-  { name: 'MongoDB', icon: '/src/assests/mongodb.svg' },
-  { name: 'Firebase', icon: '/src/assests/firebase.svg' },
-  { name: 'Figma', icon: '/src/assests/figma.svg' },
-  { name: 'Github', icon: '/src/assests/github.svg' },
+  { name: 'JavaScript', icon: '/assests/javascript.svg' },
+  { name: 'Java', icon: '/assests/java.svg' },
+  { name: 'Python', icon: '/assests/python.svg' },
+  { name: 'HTML', icon: '/assests/html.svg' },
+  { name: 'CSS', icon: '/assests/css.svg' },
+  { name: 'React', icon: '/assests/react.svg' },
+  { name: 'Node js', icon: '/assests/nodejs.svg' },
+  { name: 'Express.js', icon: '/assests/express.svg' },
+  { name: 'MongoDB', icon: '/assests/mongodb.svg' },
+  { name: 'Firebase', icon: '/assests/firebase.svg' },
+  { name: 'Figma', icon: '/assests/figma.svg' },
+  { name: 'Github', icon: '/assests/github.svg' },
 ];
 
 const Skills = () => {

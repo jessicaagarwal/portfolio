@@ -2,18 +2,33 @@ import React from 'react';
 import './Skills.css';
 
 const skills = [
-  { name: 'JavaScript', icon: '/assests/javaScript.svg' },
-  { name: 'Java', icon: '/assests/java.svg' },
-  { name: 'Python', icon: '/assests/python.svg' },
-  { name: 'HTML', icon: '/assests/html.svg' },
-  { name: 'CSS', icon: '/assests/css.svg' },
-  { name: 'React', icon: '/assests/react.svg' },
-  { name: 'Node js', icon: '/assests/nodejs.svg' },
-  { name: 'Express.js', icon: '/assests/express.svg' },
-  { name: 'MongoDB', icon: '/assests/mongodb.svg' },
-  { name: 'Firebase', icon: '/assests/firebase.svg' },
-  { name: 'Figma', icon: '/assests/figma.svg' },
-  { name: 'Github', icon: '/assests/github.svg' },
+  // Core Languages
+  { name: 'JavaScript', icon: '/assets/javaScript.svg' },
+  { name: 'Java', icon: '/assets/java.svg' },
+  { name: 'Python', icon: '/assets/python.svg' },
+  { name: 'HTML5', icon: '/assets/html.svg' },
+  { name: 'CSS3', icon: '/assets/css.svg' },
+
+  // Frontend
+  { name: 'React.js', icon: '/assets/react.svg' },
+  { name: 'Redux Toolkit', icon: '/assets/redux.svg' },
+  { name: 'Zustand', icon: '/assets/zustand.svg' },
+  { name: 'TailwindCSS', icon: '/assets/tailwindcss.svg' },
+
+  // Backend & Databases
+  { name: 'Node.js', icon: '/assets/nodejs.svg' },
+  { name: 'Express.js', icon: '/assets/express.svg' },
+  { name: 'MongoDB', icon: '/assets/mongodb.svg' },
+  { name: 'Firebase Auth', icon: '/assets/firebase.svg' },
+  { name: 'Cloudinary', icon: '/assets/cloudinary.svg' },
+
+  // Tools & Design
+  { name: 'Docker', icon: '/assets/docker.svg' },
+  { name: 'Git & GitHub', icon: '/assets/github.svg' },
+  { name: 'Figma', icon: '/assets/figma.svg' },
+
+  // AI & Integrations
+  { name: 'LLM API', icon: '/assets/ai.svg' }, // Add ai.svg
 ];
 
 const Skills = () => {
@@ -31,51 +46,9 @@ const Skills = () => {
             </div>
           ))}
         </div>
-        {/* // EXPERIENCE SECTION COMMENTED OUT */}
-        
-        {/* <div className="app__skills-exp">
-          {experiences.map((experience) => (
-            <motion.div
-              className="app__skills-exp-item"
-              key={experience.year}
-            >
-              <div className="app__skills-exp-year">
-                <p className="bold-text">{experience.year}</p>
-              </div>
-              <motion.div className="app__skills-exp-works">
-                {experience.works.map((work) => (
-                  <React.Fragment key={work.name + work.company}>
-                    <motion.div
-                      whileInView={{ opacity: [0, 1] }}
-                      transition={{ duration: 0.5 }}
-                      className="app__skills-exp-work"
-                      data-tip
-                      data-for={work.name}
-                    >
-                        <i className='bx bx-badge-check'></i>
-                      <h4 className="bold-text">{work.name}</h4>
-                      <p className="p-text">{work.company}</p>
-                    </motion.div>
-                    {/* <ReactTooltip
-                      id={work.name}
-                      effect="solid"
-                      arrowColor="#fff"
-                      className="skills-tooltip"
-                    >
-                      {work.desc}
-                    </ReactTooltip> */}
-                  {/* </React.Fragment> */}
-                {/* ))} */}
-              {/* </motion.div> */}
-            {/* </motion.div> */}
-          {/* // ))} */}
-        {/* </div> */}
-         {/* }
-        // END EXPERIENCE SECTION */}
       </div>
     </section>
   );
 };
 
 export default Skills;
-  

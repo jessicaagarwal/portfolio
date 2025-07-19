@@ -117,52 +117,52 @@ const Qualifications = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  Smart India Hackathon Prelims Finalist
+                  Smart India Hackathon – Prelims Finalist
                 </h3>
                 <span className="qualification__subtitle">
-                  Virtual Herbal Garden Project
+                  Led the Virtual Herbal Garden project
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2024
                 </div>
               </div>
-
+          
               <div>
                 <span className="qualification__rounder"></span>
                 <div className="qualification__line"></div>
               </div>
             </div>
-
+          
             <div className="qualification__data">
               <div></div>
-
+          
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-
+          
               <div>
-                <h3 className="qualification__title">Personal Projects</h3>
+                <h3 className="qualification__title">Full-Stack Project Development</h3>
                 <span className="qualification__subtitle">
-                  HRX, E-commerce App, more
+                  Built & deployed apps like HRX, E-Commerce, and AI tools
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2024 – Present
+                  <i className="uil uil-calendar-alt"></i> 2025 – Present
                 </div>
               </div>
             </div>
-
+          
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Open Source Contributions</h3>
                 <span className="qualification__subtitle">
-                  GitHub Projects
+                  Active GitHub contributor (GSSoC 2025, community projects)
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2024 – Present
+                  <i className="uil uil-calendar-alt"></i> 2025 – Present
                 </div>
               </div>
-
+          
               <div>
                 <span className="qualification__rounder"></span>
                 {/* No line here since it's the last item */}

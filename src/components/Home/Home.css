@@ -11,6 +11,20 @@
     column-gap: 2rem;
     align-items: center;
 }
+/* Custom social icons (Figma, LeetCode) */
+.home__social-icon img {
+    width: 22px;
+    height: 22px;
+    display: block;
+    margin: 6px 0; /* spacing similar to UIL icons */
+    filter: grayscale(100%) brightness(0);
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.home__social-icon img:hover {
+    transform: scale(1.2);
+    filter: grayscale(0%) brightness(1);
+}
 
 .cursor{
     background-color: #C4DFDF;

@@ -28,21 +28,25 @@ const Footer = () => {
         </ul>
 
         <div className="footer__social">
-          <a href="https://www.instagram.com/jess.iiica_/" className="home__social-icon" target="blank">
-            <i className="bx bxl-instagram"></i>
-          </a>
-
-          <a href="https://www.linkedin.com/in/jessica-agarwal-00b6b7225/" className="home__social-icon" target="blank">
-            <i className="bx bxl-linkedin"></i>
-          </a>
-
-          <a
-            href="https://github.com/jessicaagarwal"
-            className="home__social-icon"
-            target="blank"
-          >
-            <i className="bx bxl-github"></i>
-          </a>
+            {/* LeetCode */}
+            <a href="https://leetcode.com/jessicaagarwal/" className='home__social-icon' target="_blank" rel="noreferrer">
+              <img src="/assets/leetcode.svg" alt="LeetCode" className="custom-icon" />
+            </a>
+      
+            {/* LinkedIn */}
+            <a href="https://www.linkedin.com/in/jessica-agarwal-00b6b7225/" className='home__social-icon' target="_blank" rel="noreferrer">
+              <img src="/assets/linkedin.svg" alt="LeetCode" className="custom-icon" />
+            </a>
+      
+            {/* GitHub */}
+            <a href="https://github.com/jessicaagarwal" className='home__social-icon' target="_blank" rel="noreferrer">
+              <img src="/assets/githublogo.svg" alt="LeetCode" className="custom-icon" />
+            </a>
+      
+            {/* Figma */}
+            <a href="https://www.figma.com/@jessicaagarwal" className='home__social-icon' target="_blank" rel="noreferrer">
+              <img src="/assets/figmalogo.svg" alt="Figma" className="custom-icon" />
+            </a>
         </div>
 
         <span className="footer__copy">
